@@ -13,7 +13,7 @@ let string2 = 'Also a string primitive';
 let string3 = `Yet another string primitive`;
 ```
 
-<img src="[https://miro.medium.com/v2/resize:fit:1000/1*bZYPt1mxJ_jx22Hqpz_IFQ.png](https://phpforever.com/wp-content/uploads/2021/03/Useful-String-Methods-In-JavaScript..png)">
+<img src="https://phpforever.com/wp-content/uploads/2021/03/Useful-String-Methods-In-JavaScript..png">
 ### String Methods in JavaScript:
 Strings in JavaScript are sequences of characters. JavaScript provides many built-in methods to manipulate strings.
 
