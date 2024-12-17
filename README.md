@@ -4,8 +4,9 @@ An understandable explanation of string methods and numbers in JavaScript.
 ## Strings
 
 <img src="https://dmitripavlutin.com/what-is-string-in-javascript/cover.png">
-```Strings``` are useful for holding data that can be represented in text form. 
-### Creating strings
+``` Strings``` are useful for holding data that can be represented in text form. 
+
+## Creating strings
 
 ```
 let string1 = "A string primitive";
