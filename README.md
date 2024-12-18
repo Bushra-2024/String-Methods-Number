@@ -8,7 +8,7 @@ Strings are useful for holding data that can be represented in text form.
 
 ## Creating strings
 
-```
+```js 
 let string1 = "A string primitive";
 let string2 = 'Also a string primitive';
 let string3 = `Yet another string primitive`;
