@@ -25,9 +25,11 @@ Strings in JavaScript are sequences of characters. JavaScript provides many buil
 
 
 charAt()
+
 Description: Returns the character at a specified index in a string.
 ```
-Example: let str = "Hello"; console.log(str.charAt(1)); // "e"
+Example: let str = "Hello";
+console.log(str.charAt(1)); // "e"
 ```
 
 at():
