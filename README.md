@@ -27,7 +27,7 @@ Strings in JavaScript are sequences of characters. JavaScript provides many buil
 charAt()
 
 Description: Returns the character at a specified index in a string.
-```
+```js
 Example: let str = "Hello";
 console.log(str.charAt(1)); // "e"
 ```
@@ -35,97 +35,111 @@ console.log(str.charAt(1)); // "e"
 at():
 
 Description: Returns the character at a specified index, allowing negative indices to count from the end.
-```
-Example: let str = "Hello"; console.log(str.at(-1)); // "o"
+```js
+Example: let str = "Hello";
+console.log(str.at(-1)); // "o"
 ```
 
 concat():
+
 Description: Joins two or more strings and returns a new concatenated string.
-```
-Example: let str1 = "Hello"; let str2 = "World"; console.log(str1.concat(" ", str2)); // "Hello World"
+```js
+Example: let str1 = "Hello"; let str2 = "World";
+console.log(str1.concat(" ", str2)); // "Hello World"
 ```
 
 trim():
 
 Description: Removes whitespace from both ends of a string.
-```
-Example: let str = " Hello "; console.log(str.trim()); // "Hello"
+```js
+Example: let str = " Hello ";
+console.log(str.trim()); // "Hello"
 ```
 
 
 includes():
 
 Description: Checks if a string contains a specified substring, returning true or false.
-```
-Example: let str = "Hello"; console.log(str.includes("e")); // true
+```js
+Example: let str = "Hello";
+console.log(str.includes("e")); // true
 ```
 
 indexOf():
 
 Description: Returns the index of the first occurrence of a specified substring, or -1 if not found.
-```
-Example: let str = "Hello"; console.log(str.indexOf("e")); // 1
+```js
+Example: let str = "Hello";
+console.log(str.indexOf("e")); // 1
 ```
 
 lastIndexOf():
 
 Description: Returns the index of the last occurrence of a specified substring, or -1 if not found.
-```
-Example: let str = "Hello World"; console.log(str.lastIndexOf("o")); // 7
+```js
+Example: let str = "Hello World";
+console.log(str.lastIndexOf("o")); // 7
 ```
 
 replace():
 
 Description: Replaces the first occurrence of a specified substring with another string.
-```
-Example: let str = "Hello World"; console.log(str.replace("World", "JavaScript")); // "Hello JavaScript"
+```js
+Example: let str = "Hello World";
+console.log(str.replace("World", "JavaScript")); // "Hello JavaScript"
 ```
 
 replaceAll():
 
 Description: Replaces all occurrences of a specified substring with another string.
-```
-Example: let str = "Hello World World"; console.log(str.replaceAll("World", "JavaScript")); // "Hello JavaScript JavaScript"
+```js
+Example: let str = "Hello World World";
+console.log(str.replaceAll("World", "JavaScript")); // "Hello JavaScript JavaScript"
 ```
 
 substring():
 
 Description: Extracts a part of a string between two specified indices.
-```
+```js
 Example: let str = "Hello World"; console.log(str.substring(0, 5)); // "Hello"
 ```
 
 slice():
 
 Description: Similar to substring(), but it allows negative indices to start from the end of the string.
-```
-Example: let str = "Hello World"; console.log(str.slice(0, 5)); // "Hello"
+```js
+Example: let str = "Hello World";
+console.log(str.slice(0, 5)); // "Hello"
 ```
 
 toString():
 
 Description: Returns a string representing the specified object.
-```
-Example: let num = 123; console.log(num.toString()); // "123"
+```js
+Example: let num = 123;
+console.log(num.toString()); // "123"
 ```
 
 split():
 
 Description: Splits a string into an array of substrings, using a specified delimiter.
-```
-Example: let str = "Hello World"; console.log(str.split(" ")); // ["Hello", "World"]
+```js
+Example: let str = "Hello World";
+console.log(str.split(" ")); // ["Hello", "World"]
 ```
 
 toLowerCase():
 
 Description: Converts all characters in a string to lowercase.
-```
-Example: let str = "Hello"; console.log(str.toLowerCase()); // "hello"
+```js
+Example: let str = "Hello";
+console.log(str.toLowerCase()); // "hello"
 ```
 
 toUpperCase():
 
 Description: Converts all characters in a string to uppercase.
-```
-Example: let str = "hello"; console.log(str.toUpperCase()); // "HELLO"
+```js
+Example: let str = "hello";
+console.log(str.toUpperCase()); // "HELLO"
 ```
