@@ -4,7 +4,7 @@ An understandable explanation of string methods and numbers in JavaScript.
 ## Strings
 
 <img src="https://dmitripavlutin.com/what-is-string-in-javascript/cover.png">
-``` Strings``` are useful for holding data that can be represented in text form. 
+Strings are useful for holding data that can be represented in text form. 
 
 ## Creating strings
 
@@ -18,25 +18,25 @@ let string3 = `Yet another string primitive`;
 ### String Methods in JavaScript:
 Strings in JavaScript are sequences of characters. JavaScript provides many built-in methods to manipulate strings.
 
-```charAt():```
+charAt()
 Description: Returns the character at a specified index in a string.
 ```
 Example: let str = "Hello"; console.log(str.charAt(1)); // "e"
 ```
 
-```at():```
+at():
 Description: Returns the character at a specified index, allowing negative indices to count from the end.
 ```
 Example: let str = "Hello"; console.log(str.at(-1)); // "o"
 ```
 
-```concat():```
+concat():
 Description: Joins two or more strings and returns a new concatenated string.
 ```
 Example: let str1 = "Hello"; let str2 = "World"; console.log(str1.concat(" ", str2)); // "Hello World"
 ```
 
-```trim():```
+trim():
 Description: Removes whitespace from both ends of a string.
 ```
 Example: let str = " Hello "; console.log(str.trim()); // "Hello"
@@ -45,44 +45,66 @@ Example: let str = " Hello "; console.log(str.trim()); // "Hello"
 
 includes():
 Description: Checks if a string contains a specified substring, returning true or false.
+```
 Example: let str = "Hello"; console.log(str.includes("e")); // true
+```
 
 indexOf():
 Description: Returns the index of the first occurrence of a specified substring, or -1 if not found.
+```
 Example: let str = "Hello"; console.log(str.indexOf("e")); // 1
+```
 
 lastIndexOf():
 Description: Returns the index of the last occurrence of a specified substring, or -1 if not found.
+```
 Example: let str = "Hello World"; console.log(str.lastIndexOf("o")); // 7
+```
 
 replace():
 Description: Replaces the first occurrence of a specified substring with another string.
+```
 Example: let str = "Hello World"; console.log(str.replace("World", "JavaScript")); // "Hello JavaScript"
+```
 
 replaceAll():
 Description: Replaces all occurrences of a specified substring with another string.
+```
 Example: let str = "Hello World World"; console.log(str.replaceAll("World", "JavaScript")); // "Hello JavaScript JavaScript"
+```
 
 substring():
 Description: Extracts a part of a string between two specified indices.
+```
 Example: let str = "Hello World"; console.log(str.substring(0, 5)); // "Hello"
+```
 
 slice():
 Description: Similar to substring(), but it allows negative indices to start from the end of the string.
+```
 Example: let str = "Hello World"; console.log(str.slice(0, 5)); // "Hello"
+```
 
 toString():
 Description: Returns a string representing the specified object.
+```
 Example: let num = 123; console.log(num.toString()); // "123"
+```
 
 split():
 Description: Splits a string into an array of substrings, using a specified delimiter.
+```
 Example: let str = "Hello World"; console.log(str.split(" ")); // ["Hello", "World"]
+```
 
 toLowerCase():
 Description: Converts all characters in a string to lowercase.
+```
 Example: let str = "Hello"; console.log(str.toLowerCase()); // "hello"
+```
 
 toUpperCase():
 Description: Converts all characters in a string to uppercase.
+```
 Example: let str = "hello"; console.log(str.toUpperCase()); // "HELLO"
+```
