@@ -146,7 +146,7 @@ console.log(str.toUpperCase()); // "HELLO"
 
 
 
-<img src="https://i.ytimg.com/vi/zDoCinTZs0o/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAZY0kO1WITkIPkhXxjJuebZFZCaA">
+![Useful Number Methods in JavaScript](number.jpg)
 
 
 ## Number Methods in JavaScript:
